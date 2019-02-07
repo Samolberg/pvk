@@ -1,6 +1,7 @@
 <?php
 //vajaliku häälestused
 
+
 define('BASE_DIR', './'); // define('BASE_DIR', '../');
 
 //tegelikult peavad olema conf.php failis
@@ -36,12 +37,15 @@ define('DEFAULT_CONTROLLER', 'default'); //vaikimisi defineeritud tegevused
 //selleks on eraldi fail - act.php
 //----------------------------------------
 
+
 //impordime vajalikud klassid
 require_once(MODEL_DIR.'Template.php');
 require_once(MODEL_DIR.'Http.php');
 require_once(MODEL_DIR.'Mysql.php');
 require_once(MODEL_DIR.'Linkobject.php');
 require_once(MODEL_DIR.'Session.php');
+
+
 
 require_once(LIB_DIR.'utils.php');
 
