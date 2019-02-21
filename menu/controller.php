@@ -1,7 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: l.samolberg
- * Date: 07.02.2019
- * Time: 12:27
- */
+else
+{
+    $fn = CONTROLLER_DIR.DEFAULT_CONTROLLER.'.php';
+    echo $fn;
+    $http->set('controller', DEFAULT_CONTROLLER);
+    require_once $fn;
+}
